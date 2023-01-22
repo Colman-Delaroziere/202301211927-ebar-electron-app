@@ -1,6 +1,5 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
-require("update-electron-app")();
 
 const isDev = !app.isPackaged;
 
