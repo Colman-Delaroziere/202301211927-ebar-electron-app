@@ -1,0 +1,31 @@
+.canvas {
+  -webkit-app-region: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.canvas-container {
+  display: flex;
+  gap: 10px;
+
+  position: relative;
+
+  -webkit-app-region: no-drag;
+
+  background-color: #1e1e1e;
+  background-color: #ffffff;
+}
+
+.canvas-line-indicator {
+  width: 250px;
+  height: 12px;
+
+  position: absolute;
+  bottom: 9px;
+  left: -10px;
+
+  pointer-events: none;
+  background-color: #4bbeeb4b;
+
+  border-left: 2px solid #4bbfeb;
+  border-radius: 4px;
+}
